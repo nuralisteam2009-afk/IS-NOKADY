@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Небольшие общие настройки для мобильной версии */
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
